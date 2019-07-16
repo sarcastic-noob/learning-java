@@ -44,7 +44,7 @@ public class TestEmployee {
 	      employee.setSalary(8000);
 			
 	      double appraisal = empBusinessLogic.calculateAppraisal(employee);
-	      assertEquals(500, appraisal);
+	      assertEquals(500, appraisal, 0.0);
 	   }
 
 	   // test to check yearly salary
